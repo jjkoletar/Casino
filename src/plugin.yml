@@ -1,0 +1,5 @@
+name: Casino
+version: 0.1
+authors: [jjkoletar, Hawkheart]
+main: com.koletar.jj.casino.Casino
+depend: [Vault]
