@@ -144,6 +144,12 @@
         <type type="file"/>
       </fileset>
     </copy>
+    <copy todir="${casino.output.dir}">
+        <fileset dir="${module.casino.basedir}/src/main/resources">
+            <include name="*"/>
+        </fileset>
+    </copy>
+    <jar basedir="${casino.output.dir}" file="${module.casino.basedir}/Casino.jar"/>
   </target>
   
   <target name="compile.module.casino.tests" depends="compile.module.casino.production" description="compile module Casino; test classes" unless="skip.tests"/>
