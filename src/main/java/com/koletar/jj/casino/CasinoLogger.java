@@ -3,6 +3,7 @@ package com.koletar.jj.casino;
 import java.util.logging.Logger;
 
 /**
+ * Derpy little class for log consistency
  * @author jjkoletar
  */
 public class CasinoLogger {
